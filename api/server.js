@@ -9,7 +9,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://todo-list:VJnf9OYRSBQXPREJ@cluster0.jrgea7e.mongodb.net/?retryWrites=true&w=majority/devtown",
+    "mongodb+srv://todo-list:1iomqodcjZxxLyZk@cluster0.p9hquy1.mongodb.net/?retryWrites=true&w=majority/devtown",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
