@@ -1,12 +1,11 @@
-# MERN-ToDoList
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Deployed on netlify:https://wonderful-todo-list-maryam.netlify.app/
+# MERN-ToDoList
 
-![ToDoList](https://user-images.githubusercontent.com/120028205/221378663-7179f85e-dc9c-4649-a9e1-d46fc24c5731.png)
-
+# Deployed on Netlify(Frontend):https://fantastic-crudapp.netlify.app/
+# Deployed on Render(Backend):https://crudapp-cvcg.onrender.com
 
 ## Available Scripts
 
