@@ -4,12 +4,15 @@ const cors = require("cors");
 
 const app = express();
 
+const DB = process.env.DATABASE;
+
+const port = process.env.PORT || 3004;
+
 app.use(express.json());
 app.use(cors());
 
 mongoose
-  .connect(
-    "mongodb+srv://todo-list:1iomqodcjZxxLyZk@cluster0.p9hquy1.mongodb.net/?retryWrites=true&w=majority/devtown",
+  .connect("mongodb+srv://todo-list:1iomqodcjZxxLyZk@cluster0.p9hquy1.mongodb.net/?retryWrites=true&w=majority/devtown",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
